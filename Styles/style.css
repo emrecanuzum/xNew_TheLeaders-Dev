@@ -1,0 +1,16 @@
+@import url(./header.css);
+@import url(./fakeBody.css);
+
+body{
+    background-image: url("/Img/Landing/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3000px;
+    margin: 0px;
+    font-family: "Russo One";
+    color:white;
+}
+@font-face {
+    font-family: RussoOne;
+    src: url(/Fonts/RussoOne-Regular.ttf);
+}

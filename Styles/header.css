@@ -1,0 +1,142 @@
+header{
+    background-color: black;
+    height: auto;
+    display:flex;
+    margin-top: -8px; 
+    contain: content;
+    top: 0px;
+}
+#landing-text{
+    margin-top: 160px;
+    font-size: 40px;
+    display: block;
+    font-family: RussoOne;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#pageTitle-div{
+    display: inline-block;
+    margin-top: 0px;
+
+}
+
+header #pageTitle img{
+    /*font-family: "Arial";*/
+
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 30%;
+}
+
+.titles{
+    display: flex;
+    margin: auto;
+    max-width: 30%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.links{
+    margin:auto;
+    position: fixed;
+    display: flex;
+    right: 5%;
+    background-color: #750713;
+  
+  }
+  
+  .socialLinkImg{
+      display: inline-block;
+      width: 40px;
+      padding: 5px;
+      flex: 1;
+  }
+  .socialLinkImg img{
+    width: 10px;
+}
+  #discordLink{
+    padding: 2px;
+    padding-top: 12px;
+  }
+
+
+
+.openbtn {
+font-size: 25px;
+cursor: pointer;
+background-color: rgba(17, 17, 17, 0);
+color: rgb(132, 200, 255);
+padding: 10px;
+padding-top: auto;
+padding-bottom: auto;
+border: none;
+left: -18px;
+margin-left: 1rem;
+position: fixed;
+margin-top: 1.90%;
+
+}
+
+.openbtn img{
+    width: 40%;
+}
+
+
+#mySidebar{
+position: absolute;
+height: 100%;
+min-height: 650px;
+top: 0;
+right: 0;
+}
+
+.sidebar {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0px;
+background-color: #111; /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+  
+/* The sidebar links */
+.sidebar a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-family: "Arial";
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+  
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #88d3ff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+
+
+
+
+.openbtn:hover {
+background-color: #444;
+}

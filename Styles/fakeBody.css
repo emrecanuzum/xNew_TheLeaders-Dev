@@ -1,0 +1,7 @@
+.fakeBody{
+    margin-top: 500px;
+    background-image: url("/Img/Landing/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 3000px;
+}
