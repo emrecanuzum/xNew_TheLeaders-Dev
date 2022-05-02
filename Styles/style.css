@@ -1,5 +1,9 @@
 @import url(./header.css);
 @import url(./fakeBody.css);
+@import url(./big-game.css);
+@import url(./game-starts.css);
+@import url(./get-new.css);
+@import url(./benefits.css);
 
 body{
     background-image: url("/Img/Landing/background.jpg");
@@ -10,7 +14,10 @@ body{
     font-family: "Russo One";
     color:white;
 }
+
+
+
 @font-face {
     font-family: RussoOne;
-    src: url(/Fonts/RussoOne-Regular.ttf);
+    src: url(/Img/Fonts/RussoOne-Regular.ttf);
 }

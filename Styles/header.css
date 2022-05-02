@@ -6,15 +6,93 @@ header{
     contain: content;
     top: 0px;
 }
-#landing-text{
-    margin-top: 160px;
-    font-size: 40px;
+#landing-text{  
+    font-size: 28px;
     display: block;
     font-family: RussoOne;
+    margin-top: 290px;
+    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: 200;
 }
+
+#landing-text h1{
+padding: 0;
+margin:10px;
+line-height: 40px;
+}
+
+#down-title-text{
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#down-title-text h3{
+  padding: 0;
+  margin: 2px;
+  line-height: 20px;
+}
+
+.columns{
+  display: flex;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+#buton {
+  float: left;
+  padding-right: 20px;
+}
+
+#buton :nth-child(1){
+  margin-left: auto;
+}
+#buton :nth-child(3){
+  margin-right: auto;
+}
+.custom-btn {
+  width: 160px;
+  height: 50px;
+  padding: 8px 17px;
+  padding-left: 20px;
+
+  padding-right: 20px;
+  color:white;
+  text-shadow: 0px 0px 20px #FF0000;
+  border: 2px solid rgba(255, 0, 55, 0.801);
+  box-shadow:
+  0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+  font-family: 'RussoOne';
+  font-weight: 400;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(17, 17, 17, 0.651);
+}
+
+.btn-1 {
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+   box-shadow:
+   0px -5px 50px 5px rgba(255, 0, 21, 0.459),
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+   background-color: #7507147e;
+}
+
+
+
+
 #pageTitle-div{
     display: inline-block;
     margin-top: 0px;
@@ -44,15 +122,15 @@ header #pageTitle img{
     margin:auto;
     position: fixed;
     display: flex;
-    right: 5%;
+    right: 430px;
     background-color: #750713;
   
   }
   
   .socialLinkImg{
       display: inline-block;
-      width: 40px;
-      padding: 5px;
+      width: 28px;
+      padding: 2px;
       flex: 1;
   }
   .socialLinkImg img{

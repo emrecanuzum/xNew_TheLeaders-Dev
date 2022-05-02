@@ -1,0 +1,36 @@
+#game-starts{
+    background-image: url(/Img/GameStarts/game-starts-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+    height: 206px;
+    margin-top: -8px; 
+    contain: content;
+    top: 0px;
+}
+#game-starts-title{
+    background-color:black ;
+    max-width: fit-content;
+    margin-left: 430px;
+    margin-top: -30px;
+}
+#game-starts-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:60px;
+}
+
+#game-starts-description{
+    margin-left: 430px;
+    max-width: 700px;
+}
+
+#game-starts-description p{
+    font-family: "Arial";
+    font-weight: 600 ;
+    font-size: 20px;
+    margin-top: -30px;
+
+}

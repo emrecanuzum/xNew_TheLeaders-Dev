@@ -1,0 +1,18 @@
+#benefits{
+    margin-top: 200px;
+    height: 206px;
+    margin-top: -8px; 
+    contain: content;
+    top: 0px;
+}
+#benefits-title{
+    margin-left: 430px;
+    margin-top: 0px;
+}
+#benefits-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:60px;
+}
