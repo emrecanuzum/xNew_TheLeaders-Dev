@@ -4,12 +4,19 @@
 @import url(./game-starts.css);
 @import url(./get-new.css);
 @import url(./benefits.css);
+@import url(./own-rare-nft.css);
+@import url(./unique-artworks.css);
+@import url(./press.css);
+@import url(./team.css);
+@import url(./footer.css);
+@import url(./faq.css);
+@import url(./roadmap.css);
 
 body{
     background-image: url("/Img/Landing/background.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 3000px;
+    height: auto;
     margin: 0px;
     font-family: "Russo One";
     color:white;

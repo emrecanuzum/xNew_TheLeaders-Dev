@@ -1,0 +1,55 @@
+#own-rare-nft{
+    background-color: #ffe2b080;
+    margin-top: 200px;
+    height: 250px;
+    margin-top: 0px; 
+    contain: content;
+    top: 0px;
+}
+
+
+#own-rare-nft-title{
+    margin-left: 383px;
+    margin-top: 0px;
+    max-width: 560px;
+    text-align: right;
+}
+#own-rare-nft-title h1{
+    font-family: RussoOne;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:60px;
+}
+
+.own-rare-container{
+    position: fixed;
+    top:43px;
+    right: 450px;
+}
+
+#own-rare-text{
+    color: rgb(0, 0, 0);
+
+    max-width: 450px;
+
+}
+#own-rare-text p{
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: 750;
+    line-height: 18px;
+}
+
+.own-rare-but{
+    text-align: center;
+    margin-top: -8px;
+    border-style: solid;
+    height: 40px;
+    width: 450px;
+    font-family: RussoOne;
+    background-color: black;
+    color:white;
+    font-size: larger;
+}
+
