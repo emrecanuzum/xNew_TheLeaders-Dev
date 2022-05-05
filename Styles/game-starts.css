@@ -11,7 +11,7 @@
 #game-starts-title{
     background-color:black ;
     max-width: fit-content;
-    margin-left: 430px;
+    margin-left: 23%;
     margin-top: -30px;
 }
 #game-starts-title h1{
@@ -23,7 +23,7 @@
 }
 
 #game-starts-description{
-    margin-left: 430px;
+    margin-left: 23%;
     max-width: 700px;
 }
 

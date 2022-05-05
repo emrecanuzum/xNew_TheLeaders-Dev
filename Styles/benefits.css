@@ -7,7 +7,7 @@
     top: 0px;
 }
 #benefits-title{
-    margin-left: 430px;
+    margin-left: 23%;
     margin-top: 0px;
 }
 #benefits-title h1{
@@ -19,7 +19,7 @@
 }
 
 #benefits-text{
-    margin-left: 410px;
+    margin-left: 22.5%;
     max-width: 550px;
     display: flex;
 }
@@ -45,7 +45,7 @@
 position: fixed;
 top:200px;
 padding: 2px;
-right: 448px;
+right: 23%;
 border-style: solid;
 border-color: #ec0c22;
 box-shadow:

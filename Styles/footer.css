@@ -17,17 +17,12 @@ footer{
     /*font-family: "Arial";*/
     width: 20%;
     color: rgb(255, 255, 255);
-    margin-left: 330px;
+    margin-left: 40%;
 }
 #pageTitleFF{
   font-family: RussoOne;
   font-size: 7.5rem;
   color: rgb(255, 255, 255);
-  filter: 
-      drop-shadow(rgba(0, 0, 0, 0.95) 0px 0px 10px) 
-      drop-shadow(rgba(0, 0, 0, 0.75) 0px 0px 5px) 
-      drop-shadow(rgba(0, 0, 0, 0.44) 0px 0px 15px);
-  margin-left: 100px;
   padding-bottom: 0;
 }
 
@@ -36,13 +31,13 @@ footer h5{
     display: flex;
     font-weight: 200;
     color: gold;
-    margin-left: 430px;
+    margin-left: 23%;
     margin-bottom: 20px;
     margin-top: -30px;
 }
 
 #f-container{
-    margin-left: 330px;
+    margin-left: 19.5%;
     font-weight: 200;
     min-width: 200px;
     max-width: 90%;

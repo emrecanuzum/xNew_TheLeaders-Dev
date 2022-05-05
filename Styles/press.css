@@ -1,6 +1,7 @@
 #press{
     background-image: url("/Img/Press/press-background.png");
     background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     min-height: 236px;
     contain: content;
