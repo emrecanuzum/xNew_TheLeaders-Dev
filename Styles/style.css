@@ -12,6 +12,10 @@
 @import url(./faq.css);
 @import url(./roadmap.css);
 
+a{
+    text-decoration: none;
+}
+
 body{
     background-image: url("/Img/Landing/background.jpg");
     background-size: cover;
