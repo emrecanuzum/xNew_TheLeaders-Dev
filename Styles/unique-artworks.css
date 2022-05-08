@@ -54,9 +54,13 @@
 }
 
 #unique-artworks-bottom{
-    padding-top:1px;
+    padding-top:10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #0051ff48;
-    margin-top: 100px;
+    margin-top: 120px;
+    height: 70px;
     justify-content: center;
 
     
@@ -64,12 +68,13 @@
 .columns2{
     display: flex;
     margin-top: 4px;
-    margin-left: 23.5%;
+    margin-left: auto;
     margin-right: auto;
     margin-bottom: 120px;
   }
 
   .custom-btn4{
+    display: inline-block;
     contain: content;
     width: 625px;
     height: 50px;
@@ -88,6 +93,8 @@
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
-    display: inline-block;
+    
     background-color: rgba(17, 17, 17, 0.651);
   }
+
+  

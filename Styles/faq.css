@@ -19,7 +19,7 @@
 
 .container{
 
-  font-family: RussoOne;
+  font-family: Arial;
   font-size: 16px;
   line-height: 1.6;
   max-width: 95%;
@@ -35,7 +35,7 @@
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 6em;
-    font-family: RussoOne;
+    font-family: Arial;
     font-weight: 200;
     color: white;
    
@@ -53,8 +53,8 @@
     cursor: pointer;
     background-color: #001225;
     color: gold;
-    font-family: RussoOne;
-    font-weight: 100;
+    font-family: Arial;
+    font-weight: 500;
     font-size: 19px;
   }
   

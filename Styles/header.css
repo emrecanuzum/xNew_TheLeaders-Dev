@@ -2,9 +2,15 @@ header{
     background-color: black;
     height: auto;
     display:flex;
+    position: sticky;
     margin-top: -8px; 
+    width: 100%;
     contain: content;
+    transition: 0.2s;
+    z-index: 2;
     top: 0px;
+    border-bottom: 2px solid;
+    border-color: #750713;
 }
 #landing-text{  
     font-size: 28px;
@@ -123,14 +129,14 @@ header #pageTitle img{
     margin:auto;
     position: fixed;
     display: flex;
-    right: 448px;
+    right: 23%;
     background-color: #750713;
   
   }
   
   .socialLinkImg{
       display: inline-block;
-      width: 28px;
+      width: 32px;
       padding: 2px;
       flex: 1;
   }
@@ -166,8 +172,9 @@ margin-top: 1.90%;
 
 
 #mySidebar{
-position: absolute;
+position: fixed;
 height: 100%;
+z-index: 3;
 min-height: 650px;
 top: 0;
 right: 0;
