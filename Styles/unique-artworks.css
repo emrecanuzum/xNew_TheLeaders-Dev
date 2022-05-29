@@ -97,4 +97,29 @@
     background-color: rgba(17, 17, 17, 0.651);
   }
 
-  
+  @media (max-width:1820px){
+    .nfts{
+        top: 30px;
+        position: inherit;
+        max-width: 423px;
+        border-collapse: separate;
+        border-spacing: 20px;
+        margin-left:27% ;
+    }
+    .unique-artworks-buttons{
+        margin-left: 28%;
+        margin-top: 30px;
+    }
+    #unique-artworks-bottom{
+        padding-top:10px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #0051ff48;
+        margin-top: 60px;
+        height: 70px;
+        justify-content: center;
+    
+        
+    }
+  }

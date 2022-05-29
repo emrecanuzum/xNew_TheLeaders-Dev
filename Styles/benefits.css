@@ -6,9 +6,10 @@
     margin-bottom: 60px;
     top: 0px;
 }
+
 #benefits-title{
-    margin-left: 23%;
     margin-top: 0px;
+    margin-left: 23%;
 }
 #benefits-title h1{
     font-family: RussoOne;
@@ -86,3 +87,19 @@ margin-bottom: 100px;
 }
 
 
+.benefits-left-part{
+    overflow: visible;
+    padding: 5px;
+    position:relative
+}
+
+@media (max-width:1820px){
+    .benefits-container{
+        top: 30px;
+        position: inherit;
+        max-width: 423px;
+        border-collapse: separate;
+        border-spacing: 20px;
+        left:27% ;
+    }
+  }

@@ -1,7 +1,8 @@
 #own-rare-nft{
     background-color: #ffe2b080;
     margin-top: 200px;
-    height: 250px;
+    min-height: 250px;
+    height: auto;
     margin-top: 0px; 
     contain: content;
     top: 0px;
@@ -53,3 +54,11 @@
     font-size: larger;
 }
 
+@media (max-width:1820px){
+    .own-rare-container{
+
+        position: inherit;
+        margin-left:27% ;
+        margin-bottom: 40px;
+    }
+  }

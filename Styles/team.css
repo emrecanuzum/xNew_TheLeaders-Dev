@@ -1,10 +1,18 @@
-#team{
+
+@include make-row();
+
+@include make-col-ready();
+@include make-col($size, $columns: $grid-columns);
+@include make-col-offset($size, $columns: $grid-columns);
+#team{ 
     background-image: url("/Img/Team/team-background.png");
     background-size: cover;
+    width: fit-content;
     background-repeat: no-repeat;
-    contain: content;
+    /*contain: content;*/
+    contain:size;
     min-height: 633px;
-    top: 1px;
+    display:contents;
 }
 
 #team-title{
@@ -19,30 +27,36 @@
     font-size:60px;
 }
 .team-row{
-    flex-direction: row;
+    justify-content: center;
+    vertical-align: auto;
     display: table;
-    width: fit-content;
+    align-content: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
+#team-row-center{
+    display:inline-table;
+}
 #team .team-member-wrapper{ 
-      display: table-cell;
+      /*display:flow-root;*/
+      display:inline-table;
+      align-items: center;
+      justify-content: center;
       justify-content: center;
       padding: 10px;
       margin: 16px;
       margin-top: 30px;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-   /* display: flex;
-    
-    */
+      margin-left: auto;
+      margin-right: auto;
 }
 #team .team-member-wrapper,
 #team .team-member-wrapper img{
     max-width: 200px;
     min-width: 1px;
     border-radius: 50%;  
+    position: relative;
+    margin-right: 10px;
 }
 #team #teamlinks img{
     max-width: 30px;
@@ -77,4 +91,7 @@ width: max-content;
     font-weight: 100;
     padding-bottom: 10px;
     color: white;
+}
+@media (max-width:1820px){
+
 }

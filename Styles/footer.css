@@ -134,3 +134,55 @@ footer h5{
     
     background-color: rgba(17, 17, 17, 0.651);
   }
+  
+  
+  @media (max-width:1820px){
+    .f-columns{
+        min-height: 350px; 
+        display: inline-block;
+        
+    }
+    #f-container{
+        margin-left: 19.5%;
+        font-weight: 200;
+        min-width: 200px;
+        max-width: 90%;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -70px;
+    }
+    #pageTitleFF img{
+        /*font-family: "Arial";*/
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        color: rgb(255, 255, 255);
+        display: flex;
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+    .first-column p{
+        font-size: 14px;
+        color: gold;
+        font-weight: 200;
+    }
+
+    .first-column h3{
+        font-size: 14px;
+        font-weight: 200;
+        margin-bottom: 100px;
+    }
+    .first-column a{
+        color: rgb(255, 220, 24);
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 100px;
+    }
+    .first-column h2{
+        color: yellow;
+        font-size: 10px;
+
+    }
+  }

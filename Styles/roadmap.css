@@ -32,6 +32,19 @@
     margin-right: 21%;
 }
 
+@media (max-width:1820px){
+    #roadmap{
+        display: block;
+    }
+    #roadmap-map img{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+}
+
+
+
 
 /*
 <div class="map-container">
