@@ -44,9 +44,10 @@
   }
   #buton-link img{
     position: fixed;
+    width: 103%;
     background-color: #ff000000;
-    top:5px;
-    right:13px;
+    top:1px;
+    right:0px;
   }
   #buton :nth-child(1){
     margin-left: auto;
@@ -81,11 +82,34 @@
 
   .custom-btn3{
     contain: content;
-    width: 180px;
-    height: 50px;
+    width: 136px;
+    height: 24px;
     padding: 8px 17px;
     padding-left: 20px;
-  
+    text-align: center;
+    padding-right: 20px;
+    color:white;
+    text-shadow: 0px 0px 20px #FF0000;
+    border: 2px solid rgba(255, 0, 55, 0.801);
+    box-shadow:
+    0px 3px 50px 0px rgba(255, 0, 119, 0.459);
+    font-family: 'RussoOne';
+    font-weight: 400;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    background-color: rgba(17, 17, 17, 0.651);
+  }
+  .custom-btn8{
+    contain: content;
+    width: 136px;
+    height: 30px;
+    padding: 8px 17px;
+    padding-left: 20px;
+    text-align: center;
     padding-right: 20px;
     color:white;
     text-shadow: 0px 0px 20px #FF0000;
@@ -113,6 +137,9 @@
      background-color: #7507147e;
   }
   .btn-3 {
+    transition: all 0.3s ease;
+  }
+  .btn-8 {
     transition: all 0.3s ease;
   }
   .btn-3:hover {
