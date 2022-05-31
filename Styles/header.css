@@ -154,12 +154,12 @@ header #pageTitle img{
 font-size: 25px;
 cursor: pointer;
 background-color: rgba(17, 17, 17, 0);
-color: rgb(132, 200, 255);
+color: rgb(255, 132, 132);
 padding: 10px;
 padding-top: auto;
 padding-bottom: auto;
 border: none;
-left: -18px;
+left: 18px;
 margin-left: 1rem;
 position: fixed;
 margin-top: 1.90%;
@@ -167,7 +167,8 @@ margin-top: 1.90%;
 }
 
 .openbtn img{
-    width: 30%;
+   width: 43px;
+   height: 25px;
 }
 
 
@@ -206,7 +207,7 @@ transition: 0.3s;
   
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #88d3ff;
+  color: #ff8888;
 }
 
 /* Position and style the close button (top right corner) */
