@@ -96,6 +96,32 @@ width: max-content;
     padding-bottom: 10px;
     color: white;
 }
-@media (max-width:1820px){
+@media (max-width:480px){
 
+
+    #team-title{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 40px;
+    
+    }
+    #team-title h1{
+        font-family: RussoOne;
+        font-weight: 200;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size:60px;
+    }
+    
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+
+  }
 }

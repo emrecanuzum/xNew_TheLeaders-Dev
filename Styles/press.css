@@ -43,3 +43,42 @@
     height: 30px;
     padding-left: 50px;
 }
+
+@media (max-width:480px){
+    #press-title h1{
+        font-family: RussoOne;
+        font-weight: 200;
+        line-height: 0px;
+    }
+    #press-title{
+        text-align: center;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+    
+    #press-desc h2{
+        color:black;
+        font-family: RussoOne;
+        font-size: large;
+        line-height: 20px;
+    }
+    .press-links{
+        margin-top: 50px;
+        justify-content: center;
+        display:contents;
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pLink img{
+        justify-content: center;
+        position: fixed;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 30px;
+        padding-left: 50px;
+    }
+}

@@ -103,6 +103,11 @@
       margin-left: 10px;
       margin-right: 10px;
     }
+    #faq-title{
+
+      contain: content;
+      text-align: center;
+  }
     .container{
       margin-left: 10px;
       margin-right: 1px;
