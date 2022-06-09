@@ -227,3 +227,64 @@ transition: 0.3s;
 .openbtn:hover {
 background-color: #444;
 }
+
+@media (max-width:480px){
+
+#landing-text{
+  margin-top: 100px;
+}
+.titles{
+  display: flex;
+  margin: auto;
+  max-width: 50%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.socialLinkImg{
+  display: inline-block;
+  width: 20px;
+  padding: 2px;
+  flex: 1;
+}
+.socialLinkImg img{
+  width: 10px;
+}
+.links{
+  margin:auto;
+  position: fixed;
+  display: flex;
+  right: 4%;
+  background-color: #750713;
+
+}
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgba(17, 17, 17, 0);
+  color: rgb(255, 132, 132);
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: auto;
+  border: none;
+  left: 18px;
+  margin-left: 0.1%;
+  position: fixed;
+  margin-top: 1.10%;
+  
+  }
+.openbtn img{
+  width: 30px;
+  height: 15px;
+}
+.columns{
+  display:block;
+  padding-bottom: 100px;
+}
+
+#buton{
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 25%;
+}
+}

@@ -160,4 +160,41 @@
      background-color: #7507147e;
   }
 
-  
+  @media (max-width:480px){
+    #get-new{
+      background-color: #0051ff48;
+      margin-top: 200px;
+      height: 500px;
+      margin-top: 0px; 
+      contain: content;
+      top: 0px;
+    }
+    .columns1{
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    }
+    #get-new-title{
+      text-align: center;
+      margin-left: 0%;
+      margin-top: 20px;
+  }
+    #get-new-title h1{
+      font-family: RussoOne;
+      font-weight: 200;
+      font-size:60px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 40px;
+  }
+    #buton-link{
+      padding-right: 0px;
+    }
+    #get-new #buton{
+      display: flex;
+      margin-bottom: 10px;
+      margin-left: 27.5%
+    }
+  }
