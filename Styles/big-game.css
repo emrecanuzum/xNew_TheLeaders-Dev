@@ -63,7 +63,9 @@
 
 @media (max-width:480px){
     #big-game-title{
-        margin-left: 12.5%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         margin-top: 25px;
         contain: content;
     }

@@ -286,9 +286,29 @@ background-color: #444;
   padding-bottom: 100px;
 }
 
-#buton{
+#landing #buton{
   margin-bottom: 10px;
-  display: flex;
+  display: block;
   margin-left: 25%;
+  margin-right: auto;
 }
+}
+
+@media (max-width:430px){
+  #landing #buton{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 24%;
+    margin-right: auto;
+  }
+}
+
+
+@media (max-width:400px){
+  #landing #buton{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 23%;
+    margin-right: auto;
+  }
 }
