@@ -64,21 +64,22 @@
     }
     .press-links{
         margin-top: 50px;
+        align-items: center;
         justify-content: center;
         display:contents;
         position: fixed;
+        margin-left: 100px;
+        margin-right: auto;
+    }
+    .pLink{
+        height: 50px;
+        display: block;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
     .pLink img{
-        justify-content: center;
-        position: fixed;
-        text-align: center;
-        align-items: center;
-        display: flex;
-        margin-left: 100px;
-        margin-right: 100px;
         height: 30px;
-        padding-left: 50px;
+        padding-left: 0px;
     }
 }

@@ -106,7 +106,7 @@ font-weight: 100;
 
 }
 
-header #pageTitle img{
+header #pageTitle a img{
     /*font-family: "Arial";*/
 
     color: rgb(255, 255, 255);
@@ -116,11 +116,15 @@ header #pageTitle img{
     width: 50%;
     height: 30%;
 }
-
+header a{
+  display: inline-block;
+  margin: auto;
+  max-width: 60%;
+}
 .titles{
     display: flex;
     margin: auto;
-    max-width: 30%;
+    max-width: 50%;
     margin-bottom: 15px;
     margin-top: 20px;
 }
@@ -135,7 +139,7 @@ header #pageTitle img{
   }
   
   .socialLinkImg{
-      display: inline-block;
+      display: inline-flex;
       width: 32px;
       padding: 2px;
       flex: 1;
@@ -236,7 +240,7 @@ background-color: #444;
 .titles{
   display: flex;
   margin: auto;
-  max-width: 50%;
+  max-width: 90%;
   margin-bottom: 15px;
   margin-top: 20px;
 }

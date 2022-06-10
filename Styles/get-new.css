@@ -44,10 +44,12 @@
   }
   #buton-link img{
     position: fixed;
+    image-rendering: -webkit-optimize-contrast;
     width: 103%;
     background-color: #ff000000;
     top:1px;
     right:0px;
+    
   }
   #buton :nth-child(1){
     margin-left: auto;

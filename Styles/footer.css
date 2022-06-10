@@ -159,7 +159,7 @@ footer h5{
         margin-bottom: 30px;
         color: rgb(255, 255, 255);
         display: flex;
-        margin-left: auto;
+        margin-left: 15%;
 
         margin-right: auto;
     }
@@ -188,7 +188,7 @@ footer h5{
   }
 
 
-  @media (max-width:1820px){
+  @media (max-width:480px){
     footer{
         font-family: Arial;
     

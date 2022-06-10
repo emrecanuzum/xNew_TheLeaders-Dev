@@ -1,6 +1,7 @@
 #roadmap{
     background-color: #ad000046;
     margin-top: 200px;
+    min-height: 1000px;
     height: auto;
     margin-top: 0px; 
     contain: content;
@@ -32,11 +33,22 @@
     margin-right: 21%;
 }
 
+@media (max-width:2600px){
+    #roadmap-map img{
+        display: flex;
+        position:fixed;
+        margin-top: 4%;
+        padding-left: 5%;
+        right: 10px;
+    }
+}
+
 @media (max-width:1820px){
     #roadmap{
         display: block;
     }
     #roadmap-map img{
+        position: inherit;
         margin-left: auto;
         margin-right: auto;
         display: flex;

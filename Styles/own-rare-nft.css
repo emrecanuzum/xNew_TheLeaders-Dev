@@ -41,11 +41,20 @@
     font-weight: 750;
     line-height: 18px;
 }
-
+.own-rare-button{
+    text-align: center;
+    margin-top: -7px;
+    height: 40px;
+    width: 450px;
+    font-family: RussoOne;
+    background-color: black;
+    color:white;
+    font-size: larger;
+ }
 .own-rare-but{
     text-align: center;
-    margin-top: -8px;
-    border-style: solid;
+    margin-top: 100px;
+
     height: 40px;
     width: 450px;
     font-family: RussoOne;
@@ -53,7 +62,12 @@
     color:white;
     font-size: larger;
 }
-
+.own-rare-but a{
+    padding-top: 10px;
+}
+.own-rare-button a{
+   line-height: 40px;
+}
 @media (max-width:1820px){
     .own-rare-container{
 
@@ -83,13 +97,12 @@
         max-width: 450px;
     
     }
-    .own-rare-but{
+    .own-rare-button{
         text-align: center;
         margin-top: -8px;
         justify-content: center;
         margin-left: 7%;
-        margin-right: auto;
-        border-style: solid;
+        margin-right: 7%;
         height: 40px;
         width: 350px;
         font-family: RussoOne;
@@ -98,4 +111,17 @@
         font-size: larger;
     }
     
+}
+@media (max-width:399px){
+    .own-rare-button{
+        text-align: center;
+        margin-top: -8px;
+        justify-content: center;
+        height: 40px;
+        width: 300px;
+        font-family: RussoOne;
+        background-color: black;
+        color:white;
+        font-size: larger;
+    }
 }
