@@ -120,8 +120,92 @@ width: max-content;
         align-items: center;
         justify-content: center;
         justify-content: center;
+        padding-left:27%;
+        margin: 16px;
+        margin-left: 0px;
+  }
+}
+@media (max-width:425px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
         padding-left:22%;
         margin: 16px;
-
-  }
+        margin-left: 21px;
+    }
+    }
+@media (max-width:415px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+        margin-left: 19px;
+    }
+    }
+@media (max-width:405px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+        margin-left: 16px;
+    }
+    }
+@media (max-width:395px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+        margin-left: 13px;
+    }
+    }
+@media (max-width:385px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+        margin-left: 10px;
+    }
+    }
+@media (max-width:375px){   
+    #team .team-member-wrapper{ 
+        /*display:flow-root;*/
+        display:inline-table;
+        align-items: center;
+        justify-content: center;
+        justify-content: center;
+        padding-left:22%;
+        margin: 16px;
+        margin-left: 5px;
+    }
+    }
+@media (max-width:365px){   
+#team .team-member-wrapper{ 
+    /*display:flow-root;*/
+    display:inline-table;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    padding-left:22%;
+    margin: 16px;
+    margin-left: 0px;
+}
 }
